@@ -7,6 +7,7 @@
     },
     "transform": {
       "react": {
+        // "pragma": "h"
         "runtime": "automatic",
         "importSource": "@lancercomet/vue2-jsx-runtime",
         "throwIfNamespace": false

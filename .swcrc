@@ -1,0 +1,16 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "importSource": "@lancercomet/vue2-jsx-runtime",
+        "throwIfNamespace": false
+      }
+    }
+  }
+}

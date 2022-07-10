@@ -11,7 +11,7 @@ export default {
         <p>JSX子组件</p>
         <p>msg: {this.msg}</p>
         <br />
-        <div {...{ props: {} }} key={item.name}>测试</div>
+        <div {...{ props: {} }} v-bind:key={item.name}>测试</div>
       </div>
     )
   },
